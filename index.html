@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="icon" type="image/png" href="./imagenes/favicon.png" />
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img class="logo" src="./imagenes/logoAlura.svg" alt="Logo de Alura">
+    </header>
+    <main>
+        <section class="section1">
+            <textarea class="text_input"  cols="30" rows="10" placeholder="Ingresa el texto aquí"></textarea>
+            <div class="left_info"> 
+                <img src="./imagenes/alerta.svg" alt="Imagen de Alerta">
+                <h6>Solo letras minúsculas y sin acentos</h6>
+            </div>
+            <div class="buttons">
+                <button class="btn_encrypt">Encriptar</button>
+                <button class="btn_decrypt">Desencriptar</button>
+            </div>
+        </section>
+        <section class="section2">
+            <div class="message">
+                <textarea class="final_message" readonly contenteditable="true" cols="20" rows="10" placeholder="">Ningun mensaje ha sido encontrado</textarea>
+                <p class="info">Ingresa el texto que desees encriptar o desencriptar</p>
+                <button class="btn_copy">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Coded by <a href="https://github.com/Mara-Cruz" target="_blank" class="user">@Mara-Cruz</a>. Oracle One Next Education 2023. </p>
+    </footer>
+    <script src="./js/Script.js"></script>
+</body>
+</html>
